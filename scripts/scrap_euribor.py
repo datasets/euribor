@@ -1,5 +1,6 @@
 # -*- coding: utf8 -*-
 import csv
+import re
 import requests
 from lxml import html
 
@@ -26,15 +27,22 @@ for year in years_available_in_history:
         # Get Name for the file from options where selected
         maturity_level = tree.xpath('//option[@selected]')[0].text
         maturity_level = maturity_level.replace(' ', '_')
+        if int(re.sub(r"\D", "", maturity_level)) < 10:
+            maturity_level = '0' + maturity_level
         trs = tree.xpath('//div[@class="maincontent"]/table/tr/td/table/tr/td/table/tr')
         # Prepare to write and loop on scrapped data for url
         with open(file_name(maturity_level, year), 'w') as csvfile:
             # Initialize csv writer
-            csv_writer = csv.writer(csvfile)
+            csv_writer = csv.writer(csvfile, quoting=csv.QUOTE_MINIMAL)
             # Write header
-            csv_writer.writerow(['date', 'rate(%)', 'maturity_level', 'year'])
+            # csv_writer.writerow(['date', 'rate', 'maturity_level'])
             for tr in trs:
                 # Get td from tr parent
                 date = tr.getchildren()[0].text
-                value = tr.getchildren()[1].text.replace(' %', '')
-                csv_writer.writerow([date, value, maturity_level, year])
+                value = tr.getchildren()[1].text.replace(' %', '').replace(',', '.')
+                # if '-' not in value:
+                #     value = float(value)
+                splitted_date = date.split('-')
+                splitted_date.reverse()
+                iso_8601 = '-'.join(splitted_date)
+                csv_writer.writerow([iso_8601, value, maturity_level])
