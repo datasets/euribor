@@ -6,8 +6,8 @@ import re
 
 # Get all maturity levels (13 before 2013 and 8 nowadays) to be able to concatenate by maturity
 maturity_levels = [
-    file.replace('euribor_', '').replace('_2009_by_month.csv', '')
-    for file in glob.glob('*_2009_by_month.csv')
+        file.replace('euribor_', '').replace('2009_by_month.csv', '')
+        for file in glob.glob('*2009_by_month.csv')
 ]
 
 for maturity_level in maturity_levels:
@@ -20,7 +20,7 @@ for maturity_level in maturity_levels:
         for year in to_concatenate
     ]
     # Concatenate files and add header
-    with open('data_euribor_' + maturity_level + '_' + str(min(years)) + '-' + str(max(years)) + '_by_month.csv', 'w') as fout:
+    with open('euribor-' + maturity_level + '-' + 'monthly' + '.csv', 'w') as fout:
         fout.write('date,rate,maturity_level\n')
         for line in fileinput.input(to_concatenate):
             fout.write(line)

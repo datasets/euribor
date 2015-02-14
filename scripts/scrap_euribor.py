@@ -7,11 +7,13 @@ from lxml import html
 base_url = 'http://www.euribor-rates.eu'
 url = 'euribor-{}.asp?i1={}&i2=1'
 
+granularity = 'monthly'
+
 # To get infos from 1999 to 2014
 years_available_in_history = [str(year) for year in range(1999, 2015)]
 
 # Pattern for file naming
-file_name = 'euribor_{}_{}_by_month.csv'.format
+file_name = 'euribor_{}{}_by_month.csv'.format
 
 for year in years_available_in_history:
     print year
@@ -26,23 +28,32 @@ for year in years_available_in_history:
         tree = html.fromstring(page.text)
         # Get Name for the file from options where selected
         maturity_level = tree.xpath('//option[@selected]')[0].text
-        maturity_level = maturity_level.replace(' ', '_')
-        if int(re.sub(r"\D", "", maturity_level)) < 10:
-            maturity_level = '0' + maturity_level
+        maturity_level = maturity_level.replace(' ', '')
+        maturity_level = maturity_level.replace(
+            'weeks',
+            'w'
+        ).replace(
+            'week',
+            'w'
+        ).replace(
+            'months',
+            'm'
+        ).replace(
+            'month',
+            'm'
+        )
         trs = tree.xpath('//div[@class="maincontent"]/table/tr/td/table/tr/td/table/tr')
         # Prepare to write and loop on scrapped data for url
         with open(file_name(maturity_level, year), 'w') as csvfile:
             # Initialize csv writer
             csv_writer = csv.writer(csvfile, quoting=csv.QUOTE_MINIMAL)
-            # Write header
-            # csv_writer.writerow(['date', 'rate', 'maturity_level'])
             for tr in trs:
                 # Get td from tr parent
                 date = tr.getchildren()[0].text
                 value = tr.getchildren()[1].text.replace(' %', '').replace(',', '.')
-                # if '-' not in value:
-                #     value = float(value)
                 splitted_date = date.split('-')
                 splitted_date.reverse()
                 iso_8601 = '-'.join(splitted_date)
-                csv_writer.writerow([iso_8601, value, maturity_level])
+                # If empty value (during 2013 change)
+                if '-' not in value:
+                    csv_writer.writerow([iso_8601, value, maturity_level, granularity])
