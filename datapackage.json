@@ -1,0 +1,401 @@
+{
+  "name": "euribor",
+  "title": "Euribor rates",
+  "homepage": "",
+  "version": "0.1.0",
+  "license": "PDDL-1.0",
+  "resources": [
+    {
+      "name": "euribor-10m-monthly",
+      "path": "data/euribor-10m-monthly.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 3941,
+      "schema": {
+        "fields": [
+          {
+            "name": "date",
+            "type": "date",
+            "description": "The date for the rate value. It follows by convention ISO 8601 formatting and is for the first day of the month"
+          },
+          {
+            "name": "rate",
+           "type": "number",
+            "description": "The Euribor rate. It uses pourcentage (%)"
+          },
+          {
+            "name": "maturity_level",
+            "type": "string",
+            "description": "The maturity level. Before nov 2013, there was 15 rates and now only 8 are available due to EU banking regulations"
+          }
+        ]
+      }
+    },
+    {
+      "name": "euribor-11m-monthly",
+      "path": "data/euribor-11m-monthly.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 3941,
+      "schema": {
+        "fields": [
+          {
+            "name": "date",
+            "type": "date",
+            "description": "The date for the rate value. It follows by convention ISO 8601 formatting and is for the first day of the month"
+          },
+          {
+            "name": "rate",
+           "type": "number",
+            "description": "The Euribor rate. It uses pourcentage (%)"
+          },
+          {
+            "name": "maturity_level",
+           "type": "string",
+            "description": "The maturity level. Before nov 2013, there was 15 rates and now only 8 are available due to EU banking regulations"
+          }
+        ]
+      }
+    },
+    {
+      "name": "euribor-12m-monthly",
+      "path": "data/euribor-12m-monthly.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 4249,
+      "schema": {
+        "fields": [
+          {
+            "name": "date",
+            "type": "date",
+            "description": "The date for the rate value. It follows by convention ISO 8601 formatting and is for the first day of the month"
+          },
+          {
+            "name": "rate",
+           "type": "number",
+            "description": "The Euribor rate. It uses pourcentage (%)"
+          },
+          {
+            "name": "maturity_level",
+           "type": "string",
+            "description": "The maturity level. Before nov 2013, there was 15 rates and now only 8 are available due to EU banking regulations"
+          }
+        ]
+      }
+    },
+    {
+      "name": "euribor-1m-monthly",
+      "path": "data/euribor-1m-monthly.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 4057,
+      "schema": {
+        "fields": [
+          {
+            "name": "date",
+            "type": "date",
+            "description": "The date for the rate value. It follows by convention ISO 8601 formatting and is for the first day of the month"
+          },
+          {
+            "name": "rate",
+           "type": "number",
+            "description": "The Euribor rate. It uses pourcentage (%)"
+          },
+          {
+            "name": "maturity_level",
+           "type": "string",
+            "description": "The maturity level. Before nov 2013, there was 15 rates and now only 8 are available due to EU banking regulations"
+          }
+        ]
+      }
+    },
+    {
+      "name": "euribor-1w-monthly",
+      "path": "data/euribor-1w-monthly.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 3994,
+      "schema": {
+        "fields": [
+          {
+            "name": "date",
+            "type": "date",
+            "description": "The date for the rate value. It follows by convention ISO 8601 formatting and is for the first day of the month"
+          },
+          {
+            "name": "rate",
+           "type": "number",
+            "description": "The Euribor rate. It uses pourcentage (%)"
+          },
+          {
+            "name": "maturity_level",
+           "type": "string",
+            "description": "The maturity level. Before nov 2013, there was 15 rates and now only 8 are available due to EU banking regulations"
+          }
+        ]
+      }
+    },
+    {
+      "name": "euribor-2m-monthly",
+      "path": "data/euribor-2m-monthly.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 4057,
+      "schema": {
+        "fields": [
+          {
+            "name": "date",
+            "type": "date",
+            "description": "The date for the rate value. It follows by convention ISO 8601 formatting and is for the first day of the month"
+          },
+          {
+            "name": "rate",
+           "type": "number",
+            "description": "The Euribor rate. It uses pourcentage (%)"
+          },
+          {
+            "name": "maturity_level",
+           "type": "string",
+            "description": "The maturity level. Before nov 2013, there was 15 rates and now only 8 are available due to EU banking regulations"
+          }
+        ]
+      }
+    },
+    {
+      "name": "euribor-2w-monthly",
+      "path": "data/euribor-2w-monthly.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 3301,
+      "schema": {
+        "fields": [
+          {
+            "name": "date",
+            "type": "date",
+            "description": "The date for the rate value. It follows by convention ISO 8601 formatting and is for the first day of the month"
+          },
+          {
+            "name": "rate",
+           "type": "number",
+            "description": "The Euribor rate. It uses pourcentage (%)"
+          },
+          {
+            "name": "maturity_level",
+           "type": "string",
+            "description": "The maturity level. Before nov 2013, there was 15 rates and now only 8 are available due to EU banking regulations"
+          }
+        ]
+      }
+    },
+    {
+      "name": "euribor-3m-monthly",
+      "path": "data/euribor-3m-monthly.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 4057,
+      "schema": {
+        "fields": [
+          {
+            "name": "date",
+            "type": "date",
+            "description": "The date for the rate value. It follows by convention ISO 8601 formatting and is for the first day of the month"
+          },
+          {
+            "name": "rate",
+           "type": "number",
+            "description": "The Euribor rate. It uses pourcentage (%)"
+          },
+          {
+            "name": "maturity_level",
+           "type": "string",
+            "description": "The maturity level. Before nov 2013, there was 15 rates and now only 8 are available due to EU banking regulations"
+          }
+        ]
+      }
+    },
+    {
+      "name": "euribor-3w-monthly",
+      "path": "data/euribor-3w-monthly.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 3070,
+      "schema": {
+        "fields": [
+          {
+            "name": "date",
+            "type": "date",
+            "description": "The date for the rate value. It follows by convention ISO 8601 formatting and is for the first day of the month"
+          },
+          {
+            "name": "rate",
+           "type": "number",
+            "description": "The Euribor rate. It uses pourcentage (%)"
+          },
+          {
+            "name": "maturity_level",
+           "type": "string",
+            "description": "The maturity level. Before nov 2013, there was 15 rates and now only 8 are available due to EU banking regulations"
+          }
+        ]
+      }
+    },
+    {
+      "name": "euribor-4m-monthly",
+      "path": "data/euribor-4m-monthly.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 3763,
+      "schema": {
+        "fields": [
+          {
+            "name": "date",
+            "type": "date",
+            "description": "The date for the rate value. It follows by convention ISO 8601 formatting and is for the first day of the month"
+          },
+          {
+            "name": "rate",
+           "type": "number",
+            "description": "The Euribor rate. It uses pourcentage (%)"
+          },
+          {
+            "name": "maturity_level",
+           "type": "string",
+            "description": "The maturity level. Before nov 2013, there was 15 rates and now only 8 are available due to EU banking regulations"
+          }
+        ]
+      }
+    },
+    {
+      "name": "euribor-5m-monthly",
+      "path": "data/euribor-5m-monthly.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 3763,
+      "schema": {
+        "fields": [
+          {
+            "name": "date",
+            "type": "date",
+            "description": "The date for the rate value. It follows by convention ISO 8601 formatting and is for the first day of the month"
+          },
+          {
+            "name": "rate",
+           "type": "number",
+            "description": "The Euribor rate. It uses pourcentage (%)"
+          },
+          {
+            "name": "maturity_level",
+           "type": "string",
+            "description": "The maturity level. Before nov 2013, there was 15 rates and now only 8 are available due to EU banking regulations"
+          }
+        ]
+      }
+    },
+    {
+      "name": "euribor-6m-monthly",
+      "path": "data/euribor-6m-monthly.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 4057,
+      "schema": {
+        "fields": [
+          {
+            "name": "date",
+            "type": "date",
+            "description": "The date for the rate value. It follows by convention ISO 8601 formatting and is for the first day of the month"
+          },
+          {
+            "name": "rate",
+           "type": "number",
+            "description": "The Euribor rate. It uses pourcentage (%)"
+          },
+          {
+            "name": "maturity_level",
+           "type": "string",
+            "description": "The maturity level. Before nov 2013, there was 15 rates and now only 8 are available due to EU banking regulations"
+          }
+        ]
+      }
+    },
+    {
+      "name": "euribor-7m-monthly",
+      "path": "data/euribor-7m-monthly.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 3763,
+      "schema": {
+        "fields": [
+          {
+            "name": "date",
+            "type": "date",
+            "description": "The date for the rate value. It follows by convention ISO 8601 formatting and is for the first day of the month"
+          },
+          {
+            "name": "rate",
+           "type": "number",
+            "description": "The Euribor rate. It uses pourcentage (%)"
+          },
+          {
+            "name": "maturity_level",
+           "type": "string",
+            "description": "The maturity level. Before nov 2013, there was 15 rates and now only 8 are available due to EU banking regulations"
+          }
+        ]
+      }
+    },
+    {
+      "name": "euribor-8m-monthly",
+      "path": "data/euribor-8m-monthly.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 3763,
+      "schema": {
+        "fields": [
+          {
+            "name": "date",
+            "type": "date",
+            "description": "The date for the rate value. It follows by convention ISO 8601 formatting and is for the first day of the month"
+          },
+          {
+            "name": "rate",
+           "type": "number",
+            "description": "The Euribor rate. It uses pourcentage (%)"
+          },
+          {
+            "name": "maturity_level",
+           "type": "string",
+            "description": "The maturity level. Before nov 2013, there was 15 rates and now only 8 are available due to EU banking regulations"
+          }
+        ]
+      }
+    },
+    {
+      "name": "euribor-9m-monthly",
+      "path": "data/euribor-9m-monthly.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 4057,
+      "schema": {
+        "fields": [
+          {
+            "name": "date",
+            "type": "date",
+            "description": "The date for the rate value. It follows by convention ISO 8601 formatting and is for the first day of the month"
+          },
+          {
+            "name": "rate",
+           "type": "number",
+            "description": "The Euribor rate. It uses pourcentage (%)"
+          },
+          {
+            "name": "maturity_level",
+           "type": "string",
+            "description": "The maturity level. Before nov 2013, there was 15 rates and now only 8 are available due to EU banking regulations"
+          }
+        ]
+      }
+    }
+  ],
+  "description": "Euribor rates by year and granularity",
+  "repository": "git://github.com/ThomasG77/euribor.git"
+}
