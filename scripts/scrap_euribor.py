@@ -10,7 +10,7 @@ url = 'euribor-{}.asp?i1={}&i2=1'
 granularity = 'monthly'
 
 # To get infos from 1999 to 2014
-years_available_in_history = [str(year) for year in range(1999, 2015)]
+years_available_in_history = [str(year) for year in range(1999, 2017)]
 
 # Pattern for file naming
 file_name = 'euribor_{}{}_by_month.csv'.format
@@ -55,5 +55,10 @@ for year in years_available_in_history:
                 splitted_date.reverse()
                 iso_8601 = '-'.join(splitted_date)
                 # If empty value (during 2013 change)
-                if '-' not in value:
-                    csv_writer.writerow([iso_8601, value, maturity_level, granularity])
+                try:
+                    numeric_value = float(value)
+                    csv_writer.writerow([iso_8601, '{0:.3f}'.format(numeric_value), maturity_level, granularity])
+                except:
+                    # Empty value (during 2013 change)
+                    pass
+
