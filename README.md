@@ -29,7 +29,7 @@ The columns are the same for all csv files.
 They are three of them :
 
 * `date` is the date for the rate value. It follows by convention ISO 8601 formatting and is for the first day of the month
-* `rate` is the Euribor rate. It uses pourcentage (%)
+* `rate` is the Euribor rate. It uses percentage (%)
 * `maturity_level` express the same information you have in file naming convention. Before nov 2013, there was 15 rates and now only 8 are available due to EU banking regulations.
 
 The oldest available data are from 1999.
