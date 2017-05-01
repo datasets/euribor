@@ -72,9 +72,18 @@ def select_and_write_data(tree, maturity_level, year, xpath_selector, **kwargs):
             else:
                 splitted_date.reverse()
             iso_8601 = '-'.join(splitted_date)
-            # If empty value (during 2013 change)
-            #if '-' not in value:
-            csv_writer.writerow([iso_8601, value, maturity_level, granularity])
+
+            try:
+                numeric_value = float(value)
+                csv_writer.writerow([
+                    iso_8601,
+                    '{0:.3f}'.format(numeric_value),
+                    maturity_level,
+                    granularity
+                ])
+            except:
+                # Empty value (during 2013 change)
+                pass
 
 
 def get_history_data():
@@ -97,7 +106,7 @@ def get_history_data():
 
 
 def get_current_year_data():
-    labels = [ x for x in get_available_maturity_levels('2014', type='labels')]
+    labels = [x for x in get_available_maturity_levels('2014', type='labels')]
     year = date.now().year
     for label in labels:
         maturity_level = shorten_label(label)
