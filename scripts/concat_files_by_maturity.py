@@ -21,7 +21,7 @@ for maturity_level in maturity_levels:
     ]
     # Concatenate files and add header
     with open('euribor-' + maturity_level + '-' + 'monthly' + '.csv', 'w') as fout:
-        fout.write('date,rate,maturity_level\n')
+        fout.write('date,rate,maturity_level,granularity\n')
         for line in fileinput.input(to_concatenate):
             fout.write(line)
 
