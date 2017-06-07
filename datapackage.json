@@ -26,6 +26,10 @@
             "name": "maturity_level",
             "type": "string",
             "description": "The maturity level. Before nov 2013, there was 15 rates and now only 8 are available due to EU banking regulations"
+          },
+          {
+            "name": "granularity",
+            "type": "string"
           }
         ]
       }
@@ -52,6 +56,10 @@
             "name": "maturity_level",
            "type": "string",
             "description": "The maturity level. Before nov 2013, there was 15 rates and now only 8 are available due to EU banking regulations"
+          },
+          {
+            "name": "granularity",
+            "type": "string"
           }
         ]
       }
@@ -78,6 +86,10 @@
             "name": "maturity_level",
            "type": "string",
             "description": "The maturity level. Before nov 2013, there was 15 rates and now only 8 are available due to EU banking regulations"
+          },
+          {
+            "name": "granularity",
+            "type": "string"
           }
         ]
       }
@@ -104,6 +116,10 @@
             "name": "maturity_level",
            "type": "string",
             "description": "The maturity level. Before nov 2013, there was 15 rates and now only 8 are available due to EU banking regulations"
+          },
+          {
+            "name": "granularity",
+            "type": "string"
           }
         ]
       }
@@ -130,6 +146,10 @@
             "name": "maturity_level",
            "type": "string",
             "description": "The maturity level. Before nov 2013, there was 15 rates and now only 8 are available due to EU banking regulations"
+          },
+          {
+            "name": "granularity",
+            "type": "string"
           }
         ]
       }
@@ -156,6 +176,10 @@
             "name": "maturity_level",
            "type": "string",
             "description": "The maturity level. Before nov 2013, there was 15 rates and now only 8 are available due to EU banking regulations"
+          },
+          {
+            "name": "granularity",
+            "type": "string"
           }
         ]
       }
@@ -182,6 +206,10 @@
             "name": "maturity_level",
            "type": "string",
             "description": "The maturity level. Before nov 2013, there was 15 rates and now only 8 are available due to EU banking regulations"
+          },
+          {
+            "name": "granularity",
+            "type": "string"
           }
         ]
       }
@@ -208,6 +236,10 @@
             "name": "maturity_level",
            "type": "string",
             "description": "The maturity level. Before nov 2013, there was 15 rates and now only 8 are available due to EU banking regulations"
+          },
+          {
+            "name": "granularity",
+            "type": "string"
           }
         ]
       }
@@ -234,6 +266,10 @@
             "name": "maturity_level",
            "type": "string",
             "description": "The maturity level. Before nov 2013, there was 15 rates and now only 8 are available due to EU banking regulations"
+          },
+          {
+            "name": "granularity",
+            "type": "string"
           }
         ]
       }
@@ -260,6 +296,10 @@
             "name": "maturity_level",
            "type": "string",
             "description": "The maturity level. Before nov 2013, there was 15 rates and now only 8 are available due to EU banking regulations"
+          },
+          {
+            "name": "granularity",
+            "type": "string"
           }
         ]
       }
@@ -286,6 +326,10 @@
             "name": "maturity_level",
            "type": "string",
             "description": "The maturity level. Before nov 2013, there was 15 rates and now only 8 are available due to EU banking regulations"
+          },
+          {
+            "name": "granularity",
+            "type": "string"
           }
         ]
       }
@@ -312,6 +356,10 @@
             "name": "maturity_level",
            "type": "string",
             "description": "The maturity level. Before nov 2013, there was 15 rates and now only 8 are available due to EU banking regulations"
+          },
+          {
+            "name": "granularity",
+            "type": "string"
           }
         ]
       }
@@ -338,6 +386,10 @@
             "name": "maturity_level",
            "type": "string",
             "description": "The maturity level. Before nov 2013, there was 15 rates and now only 8 are available due to EU banking regulations"
+          },
+          {
+            "name": "granularity",
+            "type": "string"
           }
         ]
       }
@@ -364,6 +416,10 @@
             "name": "maturity_level",
            "type": "string",
             "description": "The maturity level. Before nov 2013, there was 15 rates and now only 8 are available due to EU banking regulations"
+          },
+          {
+            "name": "granularity",
+            "type": "string"
           }
         ]
       }
@@ -390,6 +446,10 @@
             "name": "maturity_level",
            "type": "string",
             "description": "The maturity level. Before nov 2013, there was 15 rates and now only 8 are available due to EU banking regulations"
+          },
+          {
+            "name": "granularity",
+            "type": "string"
           }
         ]
       }
