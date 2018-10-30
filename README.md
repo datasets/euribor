@@ -6,8 +6,8 @@ Data is taken from the [EMMI website](http://www.euribor-rates.eu/euribor-rates-
 
 The Euribor Benchmark is defined as below
 
-> The Euribor Benchmark is short for Euro Interbank Offered Rate. The Euribor Benchmark rates are based on the interest rates at which a a panel of European banks borrow funds from one another. In the calculation, the highest and lowest 15% of all the quotes collected are eliminated. The remaining rates will be averaged and rounded to three decimal places. The Euribor Benchmark is determined and published at about 11:00 am each day, Central European Time.
-> When the Euribor Benchmark is being mentioned it is often referred to as THE Euribor, like there’s only 1 Euribor interest rate. This is not correct, since there are in fact 8 different the Euribor Benchmark rates, all with different maturities (until November 1st 2013, there were 15 maturities).
+> Euribor is short for Euro Interbank Offered Rate. The Euribor rates are based on the interest rates at which a a panel of European banks borrow funds from one another. In the calculation, the highest and lowest 15% of all the quotes collected are eliminated. The remaining rates will be averaged and rounded to three decimal places. Euribor is determined and published at about 11:00 am each day, Central European Time.
+> When Euribor is being mentioned it is often referred to as THE Euribor, like there’s only 1 Euribor interest rate. This is not correct, since there are in fact 8 different Euribor rates, all with different maturities (until november 1st 2013, there were 15 maturities).
 
 ### data/*.csv
 
@@ -34,7 +34,7 @@ They are three of them :
 
 The oldest available data are from 1999.
 
-In the future, we may provide an additionnal column for granularity but at the moment, it's not useful as we only use monthly granularity.
+In the future, we may provide an additional column for granularity but at the moment, it's not useful as we only use monthly granularity.
 
 ## Preparation
 
