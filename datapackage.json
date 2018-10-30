@@ -1,6 +1,6 @@
 {
   "name": "euribor",
-  "title": "Euribor rates",
+  "title": "The Euribor Benchmark Rates",
   "version": "0.1.0",
   "licenses": [
     {
@@ -26,7 +26,7 @@
           {
             "name": "rate",
            "type": "number",
-            "description": "The Euribor rate. It uses pourcentage (%)"
+            "description": "The Euribor Benchmark rate. It uses pourcentage (%)"
           },
           {
             "name": "maturity_level",
@@ -56,7 +56,7 @@
           {
             "name": "rate",
            "type": "number",
-            "description": "The Euribor rate. It uses pourcentage (%)"
+            "description": "The Euribor Benchmark rate. It uses pourcentage (%)"
           },
           {
             "name": "maturity_level",
@@ -86,7 +86,7 @@
           {
             "name": "rate",
            "type": "number",
-            "description": "The Euribor rate. It uses pourcentage (%)"
+            "description": "The Euribor Benchmark rate. It uses pourcentage (%)"
           },
           {
             "name": "maturity_level",
@@ -116,7 +116,7 @@
           {
             "name": "rate",
            "type": "number",
-            "description": "The Euribor rate. It uses pourcentage (%)"
+            "description": "The Euribor Benchmark rate. It uses pourcentage (%)"
           },
           {
             "name": "maturity_level",
@@ -146,7 +146,7 @@
           {
             "name": "rate",
            "type": "number",
-            "description": "The Euribor rate. It uses pourcentage (%)"
+            "description": "The Euribor Benchmark rate. It uses pourcentage (%)"
           },
           {
             "name": "maturity_level",
@@ -176,7 +176,7 @@
           {
             "name": "rate",
            "type": "number",
-            "description": "The Euribor rate. It uses pourcentage (%)"
+            "description": "The Euribor Benchmark rate. It uses pourcentage (%)"
           },
           {
             "name": "maturity_level",
@@ -206,7 +206,7 @@
           {
             "name": "rate",
            "type": "number",
-            "description": "The Euribor rate. It uses pourcentage (%)"
+            "description": "The Euribor Benchmark rate. It uses pourcentage (%)"
           },
           {
             "name": "maturity_level",
@@ -236,7 +236,7 @@
           {
             "name": "rate",
            "type": "number",
-            "description": "The Euribor rate. It uses pourcentage (%)"
+            "description": "The Euribor Benchmark rate. It uses pourcentage (%)"
           },
           {
             "name": "maturity_level",
@@ -266,7 +266,7 @@
           {
             "name": "rate",
            "type": "number",
-            "description": "The Euribor rate. It uses pourcentage (%)"
+            "description": "The Euribor Benchmark rate. It uses pourcentage (%)"
           },
           {
             "name": "maturity_level",
@@ -296,7 +296,7 @@
           {
             "name": "rate",
            "type": "number",
-            "description": "The Euribor rate. It uses pourcentage (%)"
+            "description": "The Euribor Benchmark rate. It uses pourcentage (%)"
           },
           {
             "name": "maturity_level",
@@ -326,7 +326,7 @@
           {
             "name": "rate",
            "type": "number",
-            "description": "The Euribor rate. It uses pourcentage (%)"
+            "description": "The Euribor Benchmark rate. It uses pourcentage (%)"
           },
           {
             "name": "maturity_level",
@@ -356,7 +356,7 @@
           {
             "name": "rate",
            "type": "number",
-            "description": "The Euribor rate. It uses pourcentage (%)"
+            "description": "The Euribor Benchmark rate. It uses pourcentage (%)"
           },
           {
             "name": "maturity_level",
@@ -386,7 +386,7 @@
           {
             "name": "rate",
            "type": "number",
-            "description": "The Euribor rate. It uses pourcentage (%)"
+            "description": "The Euribor Benchmark rate. It uses pourcentage (%)"
           },
           {
             "name": "maturity_level",
@@ -416,7 +416,7 @@
           {
             "name": "rate",
            "type": "number",
-            "description": "The Euribor rate. It uses pourcentage (%)"
+            "description": "The Euribor Benchmark rate. It uses pourcentage (%)"
           },
           {
             "name": "maturity_level",
@@ -446,7 +446,7 @@
           {
             "name": "rate",
            "type": "number",
-            "description": "The Euribor rate. It uses pourcentage (%)"
+            "description": "The Euribor Benchmark rate. It uses pourcentage (%)"
           },
           {
             "name": "maturity_level",
@@ -461,6 +461,6 @@
       }
     }
   ],
-  "description": "Euribor rates by year and granularity",
+  "description": "The Euribor Benchmark rates by year and granularity",
   "repository": "git://github.com/ThomasG77/euribor.git"
 }
