@@ -88,7 +88,6 @@ def select_and_write_data(tree, maturity_level, year, xpath_selector, **kwargs):
 
 def get_history_data():
     for year in years_available_in_history:
-        print year
         values = get_available_maturity_levels(year)
         # Loop now for each year
         for value in values:
