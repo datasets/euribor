@@ -44,5 +44,5 @@ This package includes a bash script executing two python scripts, one `scripts/s
 
 This Data Package is licensed by its maintainers under the [Public Domain Dedication and License (PDDL)](http://opendatacommons.org/licenses/pddl/1.0/).
 
-Refer to the [terms of use](http://www.euribor-rates.eu/disclaimer.asp) of the source dataset for any specific restrictions on using these data in a public or commercial product. You should also be aware that this data comes indirectly from <http://www.emmi-benchmarks.eu/euribor-org/euribor-rates.html>.
+Refer to the [terms of use](http://www.euribor-rates.eu/disclaimer.asp) of the source dataset for any specific restrictions on using these data in a public or commercial product. You should also be aware that this data comes indirectly from [http://www.emmi-benchmarks.eu/euribor-org/euribor-rates.html](http://www.emmi-benchmarks.eu/euribor-org/euribor-rates.html).
 Note that underlying rights, terms and conditions in the data from the source are unclear and may exists.
