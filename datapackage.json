@@ -25,7 +25,7 @@
           },
           {
             "name": "rate",
-           "type": "number",
+            "type": "number",
             "description": "The Euribor Benchmark rate. It uses pourcentage (%)"
           },
           {
@@ -55,12 +55,12 @@
           },
           {
             "name": "rate",
-           "type": "number",
+            "type": "number",
             "description": "The Euribor Benchmark rate. It uses pourcentage (%)"
           },
           {
             "name": "maturity_level",
-           "type": "string",
+            "type": "string",
             "description": "The maturity level. Before nov 2013, there was 15 rates and now only 8 are available due to EU banking regulations"
           },
           {
@@ -85,12 +85,12 @@
           },
           {
             "name": "rate",
-           "type": "number",
+            "type": "number",
             "description": "The Euribor Benchmark rate. It uses pourcentage (%)"
           },
           {
             "name": "maturity_level",
-           "type": "string",
+            "type": "string",
             "description": "The maturity level. Before nov 2013, there was 15 rates and now only 8 are available due to EU banking regulations"
           },
           {
@@ -115,12 +115,12 @@
           },
           {
             "name": "rate",
-           "type": "number",
+            "type": "number",
             "description": "The Euribor Benchmark rate. It uses pourcentage (%)"
           },
           {
             "name": "maturity_level",
-           "type": "string",
+            "type": "string",
             "description": "The maturity level. Before nov 2013, there was 15 rates and now only 8 are available due to EU banking regulations"
           },
           {
@@ -145,12 +145,12 @@
           },
           {
             "name": "rate",
-           "type": "number",
+            "type": "number",
             "description": "The Euribor Benchmark rate. It uses pourcentage (%)"
           },
           {
             "name": "maturity_level",
-           "type": "string",
+            "type": "string",
             "description": "The maturity level. Before nov 2013, there was 15 rates and now only 8 are available due to EU banking regulations"
           },
           {
@@ -175,12 +175,12 @@
           },
           {
             "name": "rate",
-           "type": "number",
+            "type": "number",
             "description": "The Euribor Benchmark rate. It uses pourcentage (%)"
           },
           {
             "name": "maturity_level",
-           "type": "string",
+            "type": "string",
             "description": "The maturity level. Before nov 2013, there was 15 rates and now only 8 are available due to EU banking regulations"
           },
           {
@@ -205,12 +205,12 @@
           },
           {
             "name": "rate",
-           "type": "number",
+            "type": "number",
             "description": "The Euribor Benchmark rate. It uses pourcentage (%)"
           },
           {
             "name": "maturity_level",
-           "type": "string",
+            "type": "string",
             "description": "The maturity level. Before nov 2013, there was 15 rates and now only 8 are available due to EU banking regulations"
           },
           {
@@ -235,12 +235,12 @@
           },
           {
             "name": "rate",
-           "type": "number",
+            "type": "number",
             "description": "The Euribor Benchmark rate. It uses pourcentage (%)"
           },
           {
             "name": "maturity_level",
-           "type": "string",
+            "type": "string",
             "description": "The maturity level. Before nov 2013, there was 15 rates and now only 8 are available due to EU banking regulations"
           },
           {
@@ -265,12 +265,12 @@
           },
           {
             "name": "rate",
-           "type": "number",
+            "type": "number",
             "description": "The Euribor Benchmark rate. It uses pourcentage (%)"
           },
           {
             "name": "maturity_level",
-           "type": "string",
+            "type": "string",
             "description": "The maturity level. Before nov 2013, there was 15 rates and now only 8 are available due to EU banking regulations"
           },
           {
@@ -295,12 +295,12 @@
           },
           {
             "name": "rate",
-           "type": "number",
+            "type": "number",
             "description": "The Euribor Benchmark rate. It uses pourcentage (%)"
           },
           {
             "name": "maturity_level",
-           "type": "string",
+            "type": "string",
             "description": "The maturity level. Before nov 2013, there was 15 rates and now only 8 are available due to EU banking regulations"
           },
           {
@@ -325,12 +325,12 @@
           },
           {
             "name": "rate",
-           "type": "number",
+            "type": "number",
             "description": "The Euribor Benchmark rate. It uses pourcentage (%)"
           },
           {
             "name": "maturity_level",
-           "type": "string",
+            "type": "string",
             "description": "The maturity level. Before nov 2013, there was 15 rates and now only 8 are available due to EU banking regulations"
           },
           {
@@ -355,12 +355,12 @@
           },
           {
             "name": "rate",
-           "type": "number",
+            "type": "number",
             "description": "The Euribor Benchmark rate. It uses pourcentage (%)"
           },
           {
             "name": "maturity_level",
-           "type": "string",
+            "type": "string",
             "description": "The maturity level. Before nov 2013, there was 15 rates and now only 8 are available due to EU banking regulations"
           },
           {
@@ -385,12 +385,12 @@
           },
           {
             "name": "rate",
-           "type": "number",
+            "type": "number",
             "description": "The Euribor Benchmark rate. It uses pourcentage (%)"
           },
           {
             "name": "maturity_level",
-           "type": "string",
+            "type": "string",
             "description": "The maturity level. Before nov 2013, there was 15 rates and now only 8 are available due to EU banking regulations"
           },
           {
@@ -415,12 +415,12 @@
           },
           {
             "name": "rate",
-           "type": "number",
+            "type": "number",
             "description": "The Euribor Benchmark rate. It uses pourcentage (%)"
           },
           {
             "name": "maturity_level",
-           "type": "string",
+            "type": "string",
             "description": "The maturity level. Before nov 2013, there was 15 rates and now only 8 are available due to EU banking regulations"
           },
           {
@@ -445,12 +445,12 @@
           },
           {
             "name": "rate",
-           "type": "number",
+            "type": "number",
             "description": "The Euribor Benchmark rate. It uses pourcentage (%)"
           },
           {
             "name": "maturity_level",
-           "type": "string",
+            "type": "string",
             "description": "The maturity level. Before nov 2013, there was 15 rates and now only 8 are available due to EU banking regulations"
           },
           {
@@ -462,5 +462,6 @@
     }
   ],
   "description": "The Euribor Benchmark rates by year and granularity",
-  "repository": "git://github.com/ThomasG77/euribor.git"
+  "repository": "git://github.com/ThomasG77/euribor.git",
+  "collection": "economic-data"
 }
