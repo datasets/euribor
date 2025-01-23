@@ -19,7 +19,7 @@ All files in directory `data` are using the following naming convention pattern:
 
 For instance, you can have
 
-    euribor-1w-monthly.csv
+    euribor-1w-weekly.csv
     euribor-1m-monthly.csv
     euribor-10m-monthly.csv
     ...
@@ -40,7 +40,15 @@ In the future, we may provide an additional column for granularity but at the mo
 
 ## Preparation
 
-This package includes a bash script executing two python scripts, one `scripts/scrap_euribor.py` to fetch content, the other `scripts/concat_files_by_maturity.py` to concat files per maturity for each granularity. At the moment, we only get monthly granularity.
+This package includes a python script `scripts/scrap_euribor.py` that executes the process of creating the euribor data at `data/` folder, also `scripts/` folder contains `requirements.txt` file, and workflow looks like this:
+
+```bash
+pip install -r scripts/requirements.txt
+python scripts/scrap_euribor.py
+```
+
+## Automation
+Up-to-date (auto-updates every month) euribor dataset could be found on the datahub.io: https://datahub.io/core/euribor
 
 ## License
 
