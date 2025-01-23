@@ -1,4 +1,5 @@
 # -*- coding: utf8 -*-
+import os
 import csv
 import requests
 import pandas as pd
@@ -115,5 +116,13 @@ def get_data():
         else:
             print(f"No rows found for year {year}")
 
+def remove_duplicates():
+    data = os.listdir('data')
+    for file in data:
+        df = pd.read_csv(f'data/{file}')
+        df.drop_duplicates(subset=['date'], keep='first', inplace=True)
+        df.to_csv(f'data/{file}', index=False)
+
 if __name__ == '__main__':
     get_data()
+    remove_duplicates()
