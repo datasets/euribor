@@ -16,7 +16,7 @@ current_year = date.now().year + 1
 years_available_in_history = [str(year) for year in range(1999, current_year)]
 
 # Pattern for file naming
-file_name = 'euribor_{}-{}.csv'.format
+file_name = 'euribor-{}-{}.csv'.format
 
 # Data From 2019 to current year is available in a different format 1m, 3m, 6m, 12m
 # Data from 2001 to 2018 is available in a different format 1w, 2w, 1m,2m,3m,4m,5m,6m,7m,8m,9m,10m,11m,12m
