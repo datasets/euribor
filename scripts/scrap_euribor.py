@@ -96,9 +96,9 @@ def get_data():
                 
                 # Open the CSV file in append mode ('a') to add more data
                 with open(f'data/{file_name(granularity, level)}', 'a', newline='') as csvfile:
-                    writer = csv.writer(csvfile, delimiter=';')
+                    writer = csv.writer(csvfile, delimiter=',')
                     if csvfile.tell() == 0:  # Check if the file is empty
-                        writer.writerow(['date', 'value', 'granularity', 'level'])
+                        writer.writerow(['date', 'rate', 'maturity_level', 'granularity'])
                     
                     # Track the written dates to prevent duplicates
                     written_dates = set()
