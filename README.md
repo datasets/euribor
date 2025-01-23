@@ -11,7 +11,7 @@ The Euribor Benchmark is defined as below
 > Euribor is short for Euro Interbank Offered Rate. The Euribor rates are based on the interest rates at which a a panel of European banks borrow funds from one another. In the calculation, the highest and lowest 15% of all the quotes collected are eliminated. The remaining rates will be averaged and rounded to three decimal places. Euribor is determined and published at about 11:00 am each day, Central European Time.
 > When Euribor is being mentioned it is often referred to as THE Euribor, like there’s only 1 Euribor interest rate. This is not correct, since there are in fact 8 different Euribor rates, all with different maturities (until november 1st 2013, there were 15 maturities).
 
-### data/*.csv
+### Data folder 
 
 All files in directory `data` are using the following naming convention pattern:
 
