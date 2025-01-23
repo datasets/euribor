@@ -131,8 +131,8 @@
       }
     },
     {
-      "name": "euribor-1w-monthly",
-      "path": "data/euribor-1w-monthly.csv",
+      "name": "euribor-1w-weekly",
+      "path": "data/euribor-1w-weekly.csv",
       "format": "csv",
       "mediatype": "text/csv",
       "bytes": 3994,
@@ -191,8 +191,8 @@
       }
     },
     {
-      "name": "euribor-2w-monthly",
-      "path": "data/euribor-2w-monthly.csv",
+      "name": "euribor-2w-weekly",
+      "path": "data/euribor-2w-weekly.csv",
       "format": "csv",
       "mediatype": "text/csv",
       "bytes": 3301,
@@ -251,8 +251,8 @@
       }
     },
     {
-      "name": "euribor-3w-monthly",
-      "path": "data/euribor-3w-monthly.csv",
+      "name": "euribor-3w-weekly",
+      "path": "data/euribor-3w-weekly.csv",
       "format": "csv",
       "mediatype": "text/csv",
       "bytes": 3070,
