@@ -11,7 +11,7 @@ The Euribor Benchmark is defined as below
 > Euribor is short for Euro Interbank Offered Rate. The Euribor rates are based on the interest rates at which a a panel of European banks borrow funds from one another. In the calculation, the highest and lowest 15% of all the quotes collected are eliminated. The remaining rates will be averaged and rounded to three decimal places. Euribor is determined and published at about 11:00 am each day, Central European Time.
 > When Euribor is being mentioned it is often referred to as THE Euribor, like there’s only 1 Euribor interest rate. This is not correct, since there are in fact 8 different Euribor rates, all with different maturities (until november 1st 2013, there were 15 maturities).
 
-### data/*.csv
+### Data folder 
 
 All files in directory `data` are using the following naming convention pattern:
 
@@ -54,5 +54,5 @@ Up-to-date (auto-updates every month) euribor dataset could be found on the data
 
 This Data Package is licensed by its maintainers under the [Public Domain Dedication and License PDDL](http://opendatacommons.org/licenses/pddl/1.0).
 
-Refer to the [terms of use](http://www.euribor-rates.eu/disclaimer.asp) of the source dataset for any specific restrictions on using these data in a public or commercial product. You should also be aware that this data comes indirectly from <http://www.emmi-benchmarks.eu/euribor-org/euribor-rates.html>.
+Refer to the [terms of use](http://www.euribor-rates.eu/disclaimer.asp) of the source dataset for any specific restrictions on using these data in a public or commercial product. You should also be aware that this data comes indirectly from [http://www.emmi-benchmarks.eu/euribor-org/euribor-rates.html](http://www.emmi-benchmarks.eu/euribor-org/euribor-rates.html).
 Note that underlying rights, terms and conditions in the data from the source are unclear and may exists.
