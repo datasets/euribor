@@ -23,6 +23,26 @@ file_name = 'euribor-{}-{}.csv'.format
 # Data from 2001 to 2018 is available in a different format 1w, 2w, 1m,2m,3m,4m,5m,6m,7m,8m,9m,10m,11m,12m
 
 
+def initialize_csv_files():
+    """
+    Clear all existing CSV files in the 'data' directory.
+    This ensures no old data remains before new data is written.
+    """
+    data_dir = 'data'
+    if not os.path.exists(data_dir):
+        os.makedirs(data_dir)
+
+    for granularity in ['1w', '2w', '3w', '1m','2m','3m', '4m','5m', '6m','7m','8m','9m','10m','11m', '12m']:
+        if 'w' in granularity:
+            level = 'weekly'
+        elif 'm' in granularity:
+            level = 'monthly'
+        file_path = os.path.join(data_dir, file_name(granularity, level))
+        with open(file_path, 'w', newline='') as csvfile:
+            writer = csv.writer(csvfile, delimiter=',')
+            writer.writerow(['date', 'rate', 'maturity_level', 'granularity'])
+
+
 def get_available_maturity_levels(year, **kwargs):
     page = requests.get(base_url + '/' + url.format(year, "1"))
     return page.url
@@ -98,8 +118,6 @@ def get_data():
                 # Open the CSV file in append mode ('a') to add more data
                 with open(f'data/{file_name(granularity, level)}', 'a', newline='') as csvfile:
                     writer = csv.writer(csvfile, delimiter=',')
-                    if csvfile.tell() == 0:  # Check if the file is empty
-                        writer.writerow(['date', 'rate', 'maturity_level', 'granularity'])
                     
                     # Track the written dates to prevent duplicates
                     written_dates = set()
@@ -116,13 +134,25 @@ def get_data():
         else:
             print(f"No rows found for year {year}")
 
+def order_by_date():
+    data = os.listdir('data')
+    for file in data:
+        file_path = f'data/{file}'
+        df = pd.read_csv(file_path)
+        df['date'] = pd.to_datetime(df['date'], format='%Y-%d-%m')
+        df.sort_values(by='date', inplace=True)
+        df.to_csv(file_path, index=False)
+
 def remove_duplicates():
     data = os.listdir('data')
     for file in data:
-        df = pd.read_csv(f'data/{file}')
+        file_path = f'data/{file}'
+        df = pd.read_csv(file_path)
         df.drop_duplicates(subset=['date'], keep='first', inplace=True)
-        df.to_csv(f'data/{file}', index=False)
+        df.to_csv(file_path, index=False)
 
 if __name__ == '__main__':
+    initialize_csv_files()
     get_data()
     remove_duplicates()
+    order_by_date()
