@@ -311,3 +311,7 @@ date,rate,maturity_level,granularity
 2024-10-01,3.092,6m,monthly
 2024-11-01,2.912,6m,monthly
 2024-12-02,2.675,6m,monthly
+2025-01-02,2.562,6m,monthly
+2025-02-03,2.536,6m,monthly
+2025-03-03,2.331,6m,monthly
+2025-04-01,2.309,6m,monthly
