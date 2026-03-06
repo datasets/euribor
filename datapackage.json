@@ -37,8 +37,13 @@
             "name": "granularity",
             "type": "string"
           }
+        ],
+        "missingValues": [
+          ""
         ]
-      }
+      },
+      "profile": "tabular-data-resource",
+      "encoding": "utf-8"
     },
     {
       "name": "euribor-11m-monthly",
@@ -67,8 +72,13 @@
             "name": "granularity",
             "type": "string"
           }
+        ],
+        "missingValues": [
+          ""
         ]
-      }
+      },
+      "profile": "tabular-data-resource",
+      "encoding": "utf-8"
     },
     {
       "name": "euribor-12m-monthly",
@@ -97,8 +107,13 @@
             "name": "granularity",
             "type": "string"
           }
+        ],
+        "missingValues": [
+          ""
         ]
-      }
+      },
+      "profile": "tabular-data-resource",
+      "encoding": "utf-8"
     },
     {
       "name": "euribor-1m-monthly",
@@ -127,8 +142,13 @@
             "name": "granularity",
             "type": "string"
           }
+        ],
+        "missingValues": [
+          ""
         ]
-      }
+      },
+      "profile": "tabular-data-resource",
+      "encoding": "utf-8"
     },
     {
       "name": "euribor-1w-weekly",
@@ -157,8 +177,13 @@
             "name": "granularity",
             "type": "string"
           }
+        ],
+        "missingValues": [
+          ""
         ]
-      }
+      },
+      "profile": "tabular-data-resource",
+      "encoding": "utf-8"
     },
     {
       "name": "euribor-2m-monthly",
@@ -187,8 +212,13 @@
             "name": "granularity",
             "type": "string"
           }
+        ],
+        "missingValues": [
+          ""
         ]
-      }
+      },
+      "profile": "tabular-data-resource",
+      "encoding": "utf-8"
     },
     {
       "name": "euribor-2w-weekly",
@@ -217,8 +247,13 @@
             "name": "granularity",
             "type": "string"
           }
+        ],
+        "missingValues": [
+          ""
         ]
-      }
+      },
+      "profile": "tabular-data-resource",
+      "encoding": "utf-8"
     },
     {
       "name": "euribor-3m-monthly",
@@ -247,8 +282,13 @@
             "name": "granularity",
             "type": "string"
           }
+        ],
+        "missingValues": [
+          ""
         ]
-      }
+      },
+      "profile": "tabular-data-resource",
+      "encoding": "utf-8"
     },
     {
       "name": "euribor-3w-weekly",
@@ -277,8 +317,13 @@
             "name": "granularity",
             "type": "string"
           }
+        ],
+        "missingValues": [
+          ""
         ]
-      }
+      },
+      "profile": "tabular-data-resource",
+      "encoding": "utf-8"
     },
     {
       "name": "euribor-4m-monthly",
@@ -307,8 +352,13 @@
             "name": "granularity",
             "type": "string"
           }
+        ],
+        "missingValues": [
+          ""
         ]
-      }
+      },
+      "profile": "tabular-data-resource",
+      "encoding": "utf-8"
     },
     {
       "name": "euribor-5m-monthly",
@@ -337,8 +387,13 @@
             "name": "granularity",
             "type": "string"
           }
+        ],
+        "missingValues": [
+          ""
         ]
-      }
+      },
+      "profile": "tabular-data-resource",
+      "encoding": "utf-8"
     },
     {
       "name": "euribor-6m-monthly",
@@ -367,8 +422,13 @@
             "name": "granularity",
             "type": "string"
           }
+        ],
+        "missingValues": [
+          ""
         ]
-      }
+      },
+      "profile": "tabular-data-resource",
+      "encoding": "utf-8"
     },
     {
       "name": "euribor-7m-monthly",
@@ -397,8 +457,13 @@
             "name": "granularity",
             "type": "string"
           }
+        ],
+        "missingValues": [
+          ""
         ]
-      }
+      },
+      "profile": "tabular-data-resource",
+      "encoding": "utf-8"
     },
     {
       "name": "euribor-8m-monthly",
@@ -427,8 +492,13 @@
             "name": "granularity",
             "type": "string"
           }
+        ],
+        "missingValues": [
+          ""
         ]
-      }
+      },
+      "profile": "tabular-data-resource",
+      "encoding": "utf-8"
     },
     {
       "name": "euribor-9m-monthly",
@@ -457,8 +527,13 @@
             "name": "granularity",
             "type": "string"
           }
+        ],
+        "missingValues": [
+          ""
         ]
-      }
+      },
+      "profile": "tabular-data-resource",
+      "encoding": "utf-8"
     }
   ],
   "description": "The Euribor Benchmark rates by year and granularity",
